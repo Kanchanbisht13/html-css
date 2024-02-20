@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: linen;
+}
+#profileImg{
+    height: 69vh;
+    width: 60vw;
+    position: relative;
+
+}
+#header{
+    display:flex;
+    height: 69vh;
+    width: 100vw;
+}
+.img_overlay{
+    height: 69vh;
+    width: 60vw;
+    position: absolute;
+    background-color: rgba(255, 215, 0, 0.6);
+
+}
+.info-container{
+    height: 69vh;
+    width: 40vw;
+    display: flex;
+   
+    background-color: rgba(255, 215, 0, 0.9);
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+}
+.timeline{
+    background: #faf0e6;
+    margin:0 auto;
+}
+section{
+    display: block;
+}
+main{
+    display: block;
+}
+.timeline h2{
+    margin-left: 85px;
+}
+.timeline ul{
+    padding:0 150px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 100px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.timeline li{
+    list-style-type: none;
+    padding: 30px 50px 10px;
+    border-left:3px solid gold;
+    position: relative;
+    font-size: 18px;
+    color:#0a100d;
+
+}
+.timeline li:before {
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: gold;
+    position: absolute;
+    top: 38%;
+    left: -11px;
+}
+.quote{
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;
+    color: #054a29;
+    font-weight: 600;
+    font-size: 30px;
+}
+.said-by{
+    text-align: right;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+.quote blockquote{
+    width: 60%;
+}
+.footer{
+    height:10vh;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+   }
+   .footer a{
+    text-decoration: none;
+   }
+   .Reference{
+    text-decoration: underline;
+    color: black;
+   }
+   .heart,.name{
+    color: red;
+   }
